@@ -1,0 +1,16 @@
+h1 {
+    font-size: 2em;
+    color: orange;
+    text-transform: italic;
+  }
+
+  span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
